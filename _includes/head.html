@@ -109,6 +109,11 @@
   <!-- JavaScript -->
 
   <script src="{{ site.data.assets[origin].jquery.js | relative_url }}"></script>
+          
+  {% if page.layout == 'map' %}
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+  {% endif %}
 
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}

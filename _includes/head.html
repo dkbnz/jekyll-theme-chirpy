@@ -94,9 +94,15 @@
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ site.data.assets[origin].fontawesome.css | relative_url }}">
+<<<<<<< HEAD
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+=======
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   {% if site.toc and page.toc %}
     <link rel="stylesheet" href="{{ site.data.assets[origin].bootstrap-toc.css | relative_url }}">
   {% endif %}
@@ -109,11 +115,14 @@
   <!-- JavaScript -->
 
   <script src="{{ site.data.assets[origin].jquery.js | relative_url }}"></script>
+<<<<<<< HEAD
           
   {% if page.layout == 'map' %}
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
   {% endif %}
+=======
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}

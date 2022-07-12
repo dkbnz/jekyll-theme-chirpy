@@ -246,7 +246,7 @@ image:
 
 Except for `alt`, all other options are necessary, especially the `width` and `height`, which are related to user experience and web page loading performance. The above section "[Size](#size)" also mentions this.
 
-Starting from _Chirpy v5.0.0_, the attributes `height` and `width` can be abbreviated: `height` → `h`, `width` → `w`. In addition, the [`img_path`](#image-path) can also be passed to the preview image, that is, when it has been set, the  attribute `path` only needs the image file name.
+Starting from _Chirpy v5.2.0_, the property for the preview image is changed to `image.path`. If upgrading the theme from a prior version, you will have to update posts' metadata to use new image property.
 
 ## Pinned Posts
 
